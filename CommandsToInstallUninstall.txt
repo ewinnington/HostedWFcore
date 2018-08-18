@@ -1,0 +1,6 @@
+//Create the service
+sc create MyFileService binPath="C:\Data-Dump\projects\HostedWFcore\artifacts\HostedWfCore\HostedWFCoreService.exe"
+//start it
+sc start MyFileService
+//delete it
+sc stop MyFileService

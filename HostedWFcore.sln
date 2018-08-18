@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostedWFcore", "HostedWFcore\HostedWFcore.csproj", "{95F697BC-C12B-4308-A8B8-F2177084E7BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFcoreConsoleController", "WFcoreConsoleController\WFcoreConsoleController.csproj", "{450DD025-286F-4A84-90A2-4B341E2F6E02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CEC303B-F90B-44A9-B160-068F9A01A79F}"
+	ProjectSection(SolutionItems) = preProject
+		CommandsToInstallUninstall.txt = CommandsToInstallUninstall.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{95F697BC-C12B-4308-A8B8-F2177084E7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F697BC-C12B-4308-A8B8-F2177084E7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95F697BC-C12B-4308-A8B8-F2177084E7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450DD025-286F-4A84-90A2-4B341E2F6E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450DD025-286F-4A84-90A2-4B341E2F6E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450DD025-286F-4A84-90A2-4B341E2F6E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450DD025-286F-4A84-90A2-4B341E2F6E02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

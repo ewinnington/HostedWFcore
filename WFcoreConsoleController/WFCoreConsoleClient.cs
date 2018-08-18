@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace HostedWFcore
+namespace Eric.HostedWFCore.Client
 {
-    class Program
+    class WFCoreConsoleClient
     {
         static void Main(string[] args)
         {
