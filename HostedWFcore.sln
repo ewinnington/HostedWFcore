@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CEC303B-F90B-44A9-B160-068F9A01A79F}"
 	ProjectSection(SolutionItems) = preProject
 		CommandsToInstallUninstall.txt = CommandsToInstallUninstall.txt
+		README.txt = README.txt
 	EndProjectSection
 EndProject
 Global
