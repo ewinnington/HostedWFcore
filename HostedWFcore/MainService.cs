@@ -21,8 +21,10 @@ namespace Eric.HostedWFCore.Server
         {
             IsService = !(Debugger.IsAttached || args.Contains("--console")); //!System.Environment.UserInteractive;
 
+
             var builder = new HostBuilder().ConfigureServices((hostContext, services) =>
             {
+                services.AddHostedService<SignalRCommunicationService>(); 
                 services.AddHostedService<FileWriterService>(); 
             });
 
